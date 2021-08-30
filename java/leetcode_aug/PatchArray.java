@@ -4,7 +4,7 @@ class PatchArray{
 
 public static void main(String args[]){
 
-int nums = {1,4,10};
+int[] nums = {1,4,10};
 int n= 50;
 
 System.out.println(minPatches(nums,n));
