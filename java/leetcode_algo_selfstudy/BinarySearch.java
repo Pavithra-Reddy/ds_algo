@@ -1,4 +1,4 @@
-package leetcode_algo_binarysearch;
+package leetcode_algo_selfstudy;
 
 public class BinarySearch {
 
