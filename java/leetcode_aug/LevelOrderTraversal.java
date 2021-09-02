@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import leetcode_aug_commons.Node;
+import leetcode_commons.Node;
 
 public class LevelOrderTraversal {
 

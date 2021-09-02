@@ -3,7 +3,7 @@ package leetcode_aug;
 import java.util.ArrayList;
 import java.util.List;
 
-import leetcode_aug_commons.TreeNode;
+import leetcode_commons.TreeNode;
 
  
 public class PathSumII {

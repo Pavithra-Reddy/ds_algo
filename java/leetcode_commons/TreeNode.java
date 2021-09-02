@@ -1,4 +1,4 @@
-package leetcode_aug_commons;
+package leetcode_commons;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -42,6 +42,15 @@ public class TreeNode {
 			return root;
 		} else {
 			return null;
+		}
+	}
+	
+	public void preOrder(TreeNode root)
+	{
+		if (root != null) {
+			System.out.print(root.val + " ");
+			preOrder(root.left);
+			preOrder(root.right);
 		}
 	}
 }

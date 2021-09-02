@@ -1,6 +1,6 @@
 package leetcode_aug;
 
-import leetcode_aug_commons.TreeNode;
+import leetcode_commons.TreeNode;
 
 public class CountGoodNodes {
 
