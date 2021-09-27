@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class UniqueEmailAddress{
+
+
+public static void main(String args[]){
+System.out.println(numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}));
+}
+
+ public static int numUniqueEmails(String[] emails) {
+HashSet<String> resSet = new HashSet<>();
+ for(String s : emails){
+StringBuilder sb = new StringBuilder();
+int j = s.indexOf("@");
+for(int i=0;i<j;i++){
+ char ch = s.charAt(i);
+  if(ch == '+') 
+break;
+ if(ch != '.')
+sb.append(ch);
+}
+sb.append(s.substring(j));
+resSet.add(sb.toString());
+}
+ return resSet.size();
+ }
+
+}
